@@ -3,8 +3,8 @@ from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     UPSTAGE_API_KEY: str = ""
-    UPSTAGE_BASE_URL: str = "https://api.upstage.ai/v1"
-    UPSTAGE_MODEL: str = "solar-pro2-preview"
+    UPSTAGE_BASE_URL: str = "https://api.upstage.ai/v1/solar"
+    UPSTAGE_MODEL: str = "solar-pro2"
 
     # 비교 실험용 (선택)
     OPENAI_API_KEY: str = ""
